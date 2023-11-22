@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>La Guia del Turista</title>
-  <link rel="shortcut icon" href="../Turismo/assets/images/icono.png" type="image/png">
-  <link rel="stylesheet" href="./assets/css/estilos.css">
+  <link rel="shortcut icon" href="img/icono.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
@@ -17,16 +17,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xrR5VwEU3r1hzjw5p0Q4kFzKtkfsd8xss2FsgEo7uQ1T+1plqcgva2HN5Xvym8tc" crossorigin="anonymous">
 
   <!-- Swiper CSS -->
-  <link rel="stylesheet" href="../Turismo/assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
 </head>
 
 <body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
-
+  <!--- #HEADER --->
   <header class="header" data-header>
     <div class="overlay" data-overlay></div>
     <div class="header-top">
@@ -41,9 +37,12 @@
           </div>
         </a>
         <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" alt="Tourly logo">
+          <img src="img/logo.svg" alt="">
         </a>
         <div class="header-btn-group">
+          <!-- <button class="notifications-btn" aria-label="Search">
+          <ion-icon name="notifications-outline"></ion-icon>
+          </button> -->
           <button class="search-btn" aria-label="Search">
             <ion-icon name="search"></ion-icon>
           </button>
@@ -73,11 +72,10 @@
             </a>
           </li>
         </ul>
-
         <nav class="navbar" data-navbar>
           <div class="navbar-top">
             <a href="#" class="logo">
-              <img src="./assets/images/logo-blue.svg" alt="logo">
+              <img src="img/logo-blue.svg" alt="logo">
             </a>
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
               <ion-icon name="close-outline"></ion-icon>
@@ -85,27 +83,27 @@
           </div>
           <ul class="navbar-list">
             <li>
-              <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+              <a href="#" class="navbar-link" data-nav-link>Inicio</a>
             </li>
             <li>
               <a href="#" class="navbar-link" data-nav-link>Sobre nosotros</a>
             </li>
             <li>
-              <a href="#destination" class="navbar-link" data-nav-link>Destinos</a>
+              <a href="#" class="navbar-link" data-nav-link>Destinos</a>
             </li>
             <li>
-              <a href="#package" class="navbar-link" data-nav-link>Paquetes</a>
+              <a href="#" class="navbar-link" data-nav-link>Paquetes</a>
             </li>
             <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>Galeria</a>
+              <a href="#" class="navbar-link" data-nav-link>Galeria</a>
             </li>
             <li>
-              <a href="#contact" class="navbar-link" data-nav-link>Nosotros</a>
+              <a href="#" class="navbar-link" data-nav-link>Artesania</a>
             </li>
             <button class="btn btn-primary">
-              <a href="../admin/index.php">Iniciar</a></button>
+              <a href="#">Iniciar</a></button>
             <button class="btn btn-primary">
-              <a href="../admin/register.php">Registrar</a>
+              <a href="#">Registrar</a>
             </button>
           </ul>
         </nav>
@@ -114,94 +112,95 @@
   </header>
 
 
-
-
-
   <main>
     <article>
-
-      <!-- 
-        - #BANNER PRINCIPAL
-      -->
-
+      <!--- #BANNER PRINCIPAL--->
       <div class="slider-box">
         <ul>
+          <!-- IMAGEN 1 -->
           <li>
             <div class="image-wrapper">
-              <img src="../Turismo/assets/images/banner/banner1.jpg" alt="">
+              <img src="img/banner/banner1.jpg" alt="">
             </div>
             <div class="texto">
               <h2>Imagen 1</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
                 Repellat ad molestiae asperiores debitis, nobis, molestias.
               </p>
               <div class="btn-group">
                 <button class="btn btn-primary">Saber mas</button>
-
                 <button class="btn btn-secondary">Otras opciones</button>
               </div>
             </div>
           </li>
+          <!-- IMAGEN 2 -->
           <li>
             <div class="image-wrapper">
-              <img src="../Turismo/assets/images/banner/banner2.jpg" alt="">
+              <img src="img/banner/banner2.jpg" alt="">
             </div>
             <div class="texto">
               <h2>Imagen 2</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
                 Repellat ad molestiae asperiores debitis, nobis, molestias.
               </p>
               <div class="btn-group">
                 <button class="btn btn-primary">Saber mas</button>
-
                 <button class="btn btn-secondary">Otras opciones</button>
               </div>
             </div>
           </li>
+          <!-- IMAGEN 3 -->
           <li>
             <div class="image-wrapper">
-              <img src="../Turismo/assets/images/banner/banner3.jpg" alt="">
+              <img src="img/banner/banner3.jpg" alt="">
             </div>
             <div class="texto">
               <h2>Imagen 3</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
                 Repellat ad molestiae asperiores debitis, nobis, molestias.
               </p>
               <div class="btn-group">
                 <button class="btn btn-primary">Saber mas</button>
-
                 <button class="btn btn-secondary">Otras opciones</button>
               </div>
             </div>
           </li>
+          <!-- IMAGEN 4 -->
           <li>
             <div class="image-wrapper">
-              <img src="../Turismo/assets/images/banner/banner4.jpg" alt="">
+              <img src="img/banner/banner4.jpg" alt="">
             </div>
             <div class="texto">
               <h2>Imagen 4</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
                 Repellat ad molestiae asperiores debitis, nobis, molestias.
               </p>
               <div class="btn-group">
                 <button class="btn btn-primary">Saber mas</button>
-
                 <button class="btn btn-secondary">Otras opciones</button>
               </div>
             </div>
           </li>
+          <!-- IMAGEN 5 -->
           <li>
             <div class="image-wrapper">
-              <img src="../Turismo/assets/images/banner/banner5.jpg" alt="">
+              <img src="img/banner/banner5.jpg" alt="">
             </div>
             <div class="texto">
               <h2>Imagen 5</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
+                Repellat ad molestiae asperiores debitis, nobis, molestias. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illum totam minus tenetur fuga?
                 Repellat ad molestiae asperiores debitis, nobis, molestias.
               </p>
               <div class="btn-group">
                 <button class="btn btn-primary">Saber mas</button>
-
                 <button class="btn btn-secondary">Otras opciones</button>
               </div>
             </div>
@@ -249,14 +248,14 @@
             <div class="card-wrapper swiper-wrapper">
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-1.jpg" alt="" />
+                  <img src="img/packege-1.jpg" alt="" />
                   <div class="titulo-noticia">
                     <h3 class="titulo">David Cardlos</h3>
                     <h4 class="noticia">Full Stack Developer</h4>
                   </div>
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">David Cardlos</h3>
                     <h4 class="job">Full Stack Developer</h4>
@@ -265,10 +264,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-2.jpg" alt="" />
+                  <img src="img/packege-2.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">Siliana Ramis</h3>
                     <h4 class="job">Photographer</h4>
@@ -277,10 +276,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-3.jpg" alt="" />
+                  <img src="img/packege-3.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">Richard Bond</h3>
                     <h4 class="job">Data Analyst</h4>
@@ -289,10 +288,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-2.jpg" alt="" />
+                  <img src="img/packege-2.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">Priase</h3>
                     <h4 class="job">App Developer</h4>
@@ -301,10 +300,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-3.jpg" alt="" />
+                  <img src="img/packege-3.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">James Laze</h3>
                     <h4 class="job">Blogger</h4>
@@ -354,7 +353,7 @@
               <div class="popular-card">
 
                 <figure class="card-img">
-                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                  <img src="img/popular-1.jpg" alt="San miguel, italy" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -388,7 +387,7 @@
               <div class="popular-card">
 
                 <figure class="card-img">
-                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                  <img src="img/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -422,7 +421,7 @@
               <div class="popular-card">
 
                 <figure class="card-img">
-                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                  <img src="img/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -486,7 +485,7 @@
               <div class="package-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                  <img src="img/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -560,7 +559,7 @@
               <div class="package-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  <img src="img/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -634,7 +633,7 @@
               <div class="package-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                  <img src="img/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -730,27 +729,27 @@
           <ul class="gallery-list">
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+                <img src="img/gallery-1.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+                <img src="img/gallery-2.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+                <img src="img/gallery-3.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+                <img src="img/gallery-4.jpg" alt="Gallery image">
               </figure>
             </li>
             <li class="gallery-item">
               <figure class="gallery-image">
-                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+                <img src="img/gallery-5.jpg" alt="Gallery image">
               </figure>
             </li>
           </ul>
@@ -777,14 +776,14 @@
                   <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Culpa, perferendis rem cupiditate obcaecati cumque minima eius odio esse quo. Voluptas, 
                     similique ipsam esse expedita earum odio fugiat labore voluptatum doloribus!</p> -->
-                  <img src="../Turismo/assets/images/packege-1.jpg" alt="" />
+                  <img src="img/packege-1.jpg" alt="" />
                   <div class="titulo-noticia">
                     <h3 class="titulo">David Cardlos</h3>
                     <h4 class="noticia">Full Stack Developer</h4>
                   </div>
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">David Cardlos</h3>
                     <h4 class="job">Full Stack Developer</h4>
@@ -793,10 +792,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-2.jpg" alt="" />
+                  <img src="img/packege-2.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">Siliana Ramis</h3>
                     <h4 class="job">Photographer</h4>
@@ -805,10 +804,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-3.jpg" alt="" />
+                  <img src="img/packege-3.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">Richard Bond</h3>
                     <h4 class="job">Data Analyst</h4>
@@ -817,10 +816,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-2.jpg" alt="" />
+                  <img src="img/packege-2.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">Priase</h3>
                     <h4 class="job">App Developer</h4>
@@ -829,10 +828,10 @@
               </div>
               <div class="card swiper-slide">
                 <div class="image-box">
-                  <img src="../Turismo/assets/images/packege-3.jpg" alt="" />
+                  <img src="img/packege-3.jpg" alt="" />
                 </div>
                 <div class="profile-details">
-                  <img src="../Turismo/assets/images/icono.png" alt="" />
+                  <img src="img/icono.png" alt="" />
                   <div class="name-job">
                     <h3 class="name">James Laze</h3>
                     <h4 class="job">Blogger</h4>
@@ -885,7 +884,7 @@
       <div class="container">
         <div class="footer-brand">
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Tourly logo">
+            <img src="img/logo.svg" alt="Tourly logo">
           </a>
           <p class="footer-text">
             Es un sitio web dedicado a brindar a los viajeros una plataforma única para explorar
@@ -958,15 +957,15 @@
 
 
 
-  <script src="../Turismo/assets/js/swiper-bundle.min.js"></script>
-  <script src="../Turismo/assets/js/scriptt.js"></script>
-  <script src="../Turismo/assets/js/script.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/scriptt.js"></script>
+  <script src="js/script.js"></script>
 
 
   <!-- 
     - custom js link
   -->
-  <script src="../Turismo/assets/js/script-news.js"></script>
+  <script src="js/script-news.js"></script>
 
   <!-- 
     - ionicon link
@@ -976,10 +975,10 @@
 
 
   <!-- Swiper JS -->
-  <script src="../Turismo/assets/js/cdn.jsdelivr.net_npm_swiper@10.0.4_swiper-bundle.min.js"></script>
+  <script src="js/cdn.jsdelivr.net_npm_swiper@10.0.4_swiper-bundle.min.js"></script>
 
   <!-- JavaScript -->
-  <script src="../Turismo/assets/js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
