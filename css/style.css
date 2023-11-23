@@ -736,7 +736,7 @@ body {
 \*-----------------------------------*/
 
 .popular {
-  padding-block: var(--section-padding);
+  padding-block: 40px;
 }
 
 .popular-list,
@@ -760,6 +760,34 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.card-img {
+  position: relative;
+}
+
+.img1,
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease; /* Agrega una transición suave */
+}
+
+.img2 {
+  opacity: 0; /* La segunda imagen está inicialmente invisible */
+}
+
+.card-img:hover .img1 {
+  opacity: 0; /* Al pasar el mouse, la primera imagen se vuelve invisible */
+}
+
+.card-img:hover .img2 {
+  opacity: 1; /* Al pasar el mouse, la segunda imagen se vuelve visible */
+}
+
 
 .popular-card .card-content {
   position: absolute;

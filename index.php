@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xrR5VwEU3r1hzjw5p0Q4kFzKtkfsd8xss2FsgEo7uQ1T+1plqcgva2HN5Xvym8tc" crossorigin="anonymous" />
 
     <!-- Swiper CSS -->
@@ -120,7 +119,7 @@
 
     <main>
       <article>
-        <!--- #SECCION BANNER PRINCIPAL--->
+        <!--- #SECCION BANNER PRINCIPAL --->
         <div class="slider-box">
           <ul>
             <!-- IMAGEN 1 -->
@@ -237,7 +236,7 @@
           </ul>
         </div>
 
-        <!---#SECCION NOTICIAS--->
+        <!--- #SECCION NOTICIAS --->
         <section class="news-search">
           <div class="news-title">
             <svg
@@ -270,7 +269,8 @@
                     <img src="img/packege-1.jpg" alt="" />
                     <div class="titulo-noticia">
                       <h3 class="titulo">David Cardlos</h3>
-                      <h4 class="noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, natus recusandae qui eum animi illum.</h4>
+                      <h4 class="noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, 
+                        natus recusandae qui eum animi illum. Lorem ipsum dolor sit amet </h4>
                     </div>
                   </div>
                   <div class="profile-details">
@@ -355,133 +355,127 @@
           </div>
         </section>
 
-        <!-- 
-        - #POPULAR
-      -->
+        <!--- #INICIO DE LA SECCION TURISMO --->
 
         <section class="popular" id="destination">
           <div class="container">
-            <p class="section-subtitle">Uncover place</p>
-
-            <h2 class="h2 section-title">Popular destination</h2>
-
+            <p class="section-subtitle">LUGARES POPULARES</p>
+            <h2 class="h2 section-title">DESTINOS INCREÍBLES</h2>
             <p class="section-text">
-              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
-              nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
-              tenetur, aptent.
+              Embárcate en una aventura de descubrimiento. Entre las majestuosas montañas,
+              envuelto en la magia de antiguas leyendas, 
+              te sumergirá en un mundo de maravillas. 
+              Las imponentes estructuras arquitectónicas te saludarán con historias talladas en cada piedra. 
+              No es solo un destino, es un viaje a través del tiempo.
             </p>
 
             <ul class="popular-list">
               <li>
                 <div class="popular-card">
                   <figure class="card-img">
-                    <img
-                      src="img/popular-1.jpg"
-                      alt="San miguel, italy"
+                    <img class="img1"
+                      src="img/iglesia.JPG"
+                      alt="San Pedro de Ninacaca, Iglesia"
                       loading="lazy"
                     />
+                    <img class="img2" src="img/iglesia-dentro.JPG" alt="">
                   </figure>
-
                   <div class="card-content">
-                    <div class="card-rating">
+                    <!-- <div class="card-rating">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
-                    </div>
+                    </div> -->
 
                     <p class="card-subtitle">
-                      <a href="#">Italy</a>
+                      <a href="#">Iglesia</a>
                     </p>
 
                     <h3 class="h3 card-title">
-                      <a href="#">San miguel</a>
+                      <a href="#">San Pedro de Ninacaca</a>
                     </h3>
 
                     <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                      La Iglesia San Pedro de Ninacaca esta ubicado en la localidad de Ninacaca.
                     </p>
                   </div>
                 </div>
               </li>
-
               <li>
                 <div class="popular-card">
                   <figure class="card-img">
-                    <img
-                      src="img/popular-2.jpg"
-                      alt="Burj khalifa, dubai"
+                    <img class="img1"
+                      src="img/iglesia.JPG"
+                      alt="San Pedro de Ninacaca, Iglesia"
                       loading="lazy"
                     />
+                    <img class="img2" src="img/iglesia-dentro.JPG" alt="">
                   </figure>
-
                   <div class="card-content">
-                    <div class="card-rating">
+                    <!-- <div class="card-rating">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
-                    </div>
+                    </div> -->
 
                     <p class="card-subtitle">
-                      <a href="#">Dubai</a>
+                      <a href="#">Iglesia</a>
                     </p>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Burj khalifa</a>
+                      <a href="#">San Pedro de Ninacaca</a>
                     </h3>
 
                     <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                      La Iglesia San Pedro de Ninacaca esta ubicado en la localidad de Ninacaca.
                     </p>
                   </div>
                 </div>
               </li>
-
               <li>
                 <div class="popular-card">
                   <figure class="card-img">
-                    <img
-                      src="img/popular-3.jpg"
-                      alt="Kyoto temple, japan"
+                    <img class="img1"
+                      src="img/iglesia.JPG"
+                      alt="San Pedro de Ninacaca, Iglesia"
                       loading="lazy"
                     />
+                    <img class="img2" src="img/iglesia-dentro.JPG" alt="">
                   </figure>
-
                   <div class="card-content">
-                    <div class="card-rating">
+                    <!-- <div class="card-rating">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
-                    </div>
+                    </div> -->
 
                     <p class="card-subtitle">
-                      <a href="#">Japan</a>
+                      <a href="#">Iglesia</a>
                     </p>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Kyoto temple</a>
+                      <a href="#">San Pedro de Ninacaca</a>
                     </h3>
 
                     <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                      La Iglesia San Pedro de Ninacaca esta ubicado en la localidad de Ninacaca.
                     </p>
                   </div>
                 </div>
               </li>
             </ul>
 
-            <button class="btn btn-primary">More destintion</button>
+            <button  class="btn btn-primary"><a href="#">More destintion</a> </button>
           </div>
         </section>
 
-        <!-- 
-        - #INICIO DE LA SECCION SABIAS QUE?
-      -->
+        <!--- #INICIO DE LA SECCION SABIAS QUE? --->
 
         <div class="slider">
           <div class="slider-wrapper flex">
