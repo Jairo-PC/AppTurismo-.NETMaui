@@ -240,9 +240,13 @@
   left: 10px;
   right: auto;
 }
+
+/* DISEÑO DE LOS BOTONES */
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
   content: "prev";
+  font-size: 25px;
+  align-items: center;
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
@@ -252,7 +256,11 @@
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
   content: "next";
+  font-size: 25px;
+  align-items: center;
 }
+/* DISEÑO DE LOS BOTONES*/
+
 .swiper-button-lock {
   display: none;
 }
