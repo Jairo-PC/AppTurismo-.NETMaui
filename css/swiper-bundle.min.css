@@ -261,6 +261,35 @@
 }
 /* DISEÑO DE LOS BOTONES*/
 
+
+/* .dato-curioso .swiper-dato DISEÑO DE LOS BOTONES */
+
+.dato-curioso .swiper-dato .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 200px;
+  right: auto;
+}
+
+.dato-curioso .swiper-dato .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  font-size: 25px;
+  align-items: center;
+}
+.dato-curioso .swiper-dato .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 200px;
+  left: auto;
+}
+.dato-curioso .swiper-dato .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  font-size: 25px;
+  align-items: center;
+}
+/*.dato-curioso .swiper-dato DISEÑO DE LOS BOTONES*/
+
+
 .swiper-button-lock {
   display: none;
 }
