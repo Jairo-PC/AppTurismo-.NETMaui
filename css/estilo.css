@@ -390,9 +390,7 @@ body {
   color: var(--bright-navy-blue);
 }
 
-.nav-close-btn ion-icon {
-  --ionicon-stroke-width: 80px;
-}
+
 
 .navbar-list {
   border-top: 1px solid hsla(0, 0%, 0%, 0.1);
@@ -466,6 +464,7 @@ body {
 
 .slider-box .image-wrapper {
   position: relative;
+
 }
 
 .slider-box .image-wrapper::before {
@@ -612,7 +611,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 83%;
+  height: 83.5%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.062)0%, rgba(0, 0, 0, 0.733) 100%);
   border-radius: 8px 8px 0px 0px;
 }
@@ -968,7 +967,7 @@ body {
 
 
 /*-----------------------------------*\
- * #PACKAGE
+ * #INICIO DE LA SECCION PACKETE
 \*-----------------------------------*/
 
 .package {
@@ -1101,41 +1100,242 @@ body {
   margin-inline: auto;
 }
 
-
-
+/*-----------------------------------*\
+ * #FIN DE LA SECCION PACKETE
+\*-----------------------------------*/
 
 
 /*-----------------------------------*\
- * #GALLERY
+ * #INICIO DE LA SECCION RESTAURANTES
+\*-----------------------------------*/
+.restaurants{
+  background: #FFC31E;
+}
+
+.restaurants-title {
+  font-family: "Jua";
+  color: white;
+  padding: 20px 0px 0px 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.restaurants-title svg {
+  margin-left: 20px;
+}
+
+.restaurants-title h2 {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.restaurants .white-icon {
+  filter: brightness(0) invert(1);
+  margin: 0px 0px 0px 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 30px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+/* TAMAÑO DEL CUADRO */
+.card-restaurant .image-box {
+  height: 420px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+/* TAMAÑO DE LA IMAGEN */
+.card-restaurant .image-box img{
+  height: 420px;
+}
+
+.nombre-tarjeta{
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.603)0%, rgba(0, 0, 0, 0.596) 100%);
+  border-radius: 0px 0px 8px 8px;
+}
+
+/* TITULO Y DESCRIPCION */
+.nombre-tarjeta .title {
+  color: #e9e505;
+  display: flex;
+  font-size: 25px;
+  padding: 0px 0px 0px 20px;
+  margin-top: 20px;
+}
+
+/* TITULO Y DESCRIPCION */
+.nombre-tarjeta .tarjeta {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding: 0px 10px 0px 20px;
+}
+.nombre-tarjeta .location {
+display: flex;
+border: 2px solid #2667FF;
+background: #2667FF;
+height: 12%;
+width: 35%;
+top: 50px;
+position: relative;
+border-radius: 30px;
+margin: 10px 0px 0px 20px;
+padding: 5px;
+align-items: center;
+}
+
+.nombre-tarjeta .location h3{
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 15px;
+}
+
+.nombre-tarjeta .location .gps {
+  color: white;
+}
+
+.image-box img{
+  height: 100%;
+  width: 120%;
+}
+
+.opciones {
+  border-radius: 8px;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-restaurant:hover .opciones {
+  opacity: 1;
+}
+
+.opciones .mas-opciones{
+  background: white;
+  margin: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px 0px 10px 0px;
+}
+
+.opciones .mas-opciones:hover{
+  background: rgb(204, 203, 203);
+}
+
+.card-restaurant .profile-details {
+border: 3px solid #05AEE9;
+background: #d6d7d8;
+height: 60px;
+width: 60px;
+position: relative;
+display: flex;
+left: 240px;
+bottom: 75px;
+border-radius: 50%;
+}
+
+.card-restaurant .profile-details img {
+  height: 40px;
+  width: 40px;
+  margin: 9px;
+}
+
+.precio-restaurante {
+  position: relative;
+  text-align: center;
+  bottom: 345px;
+  }
+
+.precio-restaurante .precio-tit{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  background: rgb(241, 79, 79);
+  height: auto;
+  width: 30%;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 10px 0px 10px 0px ;
+}
+
+/*-----------------------------------*\
+ * #FIN DE LA SECCION RESTAURANTES
+\*-----------------------------------*/
+
+
+/*-----------------------------------*\
+ * #INICIO DE LA SECCION GALLERY
 \*-----------------------------------*/
 
 .gallery {
-  padding-block: var(--section-padding);
+  padding-block: 40px;
 }
 
 .gallery-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
 }
 
-.gallery-image {
-  width: 100%;
-  height: 100%;
-  border-radius: 2px;
-  overflow: hidden;
+.gallery-item {
+  border: 3px solid #48d191;
+  border-radius: 10px;
 }
 
 .gallery-item:nth-child(3) {
   grid-area: 1 / 2 / 3 / 3;
 }
 
+.gallery-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .gallery-image img {
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.foto1,
+.foto2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  top: 0;
+  left: 0;
 }
 
+/*-----------------------------------*\
+ * #FIN DE LA SECCION GALLERY
+\*-----------------------------------*/
 
 /*-----------------------------------*\
  * #INICIO SECCION HOTELES
@@ -1193,7 +1393,7 @@ body {
 
 .nombre-tarjeta{
   position: absolute;
-  top: 210px;
+  top: 180px;
   left: 0;
   width: 100%;
   height: 50%;
@@ -1223,7 +1423,7 @@ border: 2px solid #2667FF;
 background: #2667FF;
 height: 12%;
 width: 35%;
-top: 30px;
+top: 50px;
 position: relative;
 border-radius: 30px;
 margin: 10px 0px 0px 20px;
@@ -1248,13 +1448,11 @@ align-items: center;
 }
 
 .opciones {
-  /* border: 2px solid red;
-  background: white; */
   border-radius: 8px;
   padding: 5px;
   position: absolute;
   top: 10px;
-  right: 10px; /* Cambiado de 'left' a 'right' */
+  right: 10px;
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -1280,13 +1478,60 @@ align-items: center;
   background: rgb(204, 203, 203);
 }
 
+.card-hotel .profile-details {
+border: 3px solid #05AEE9;
+background: #d6d7d8;
+height: 60px;
+width: 60px;
+position: relative;
+display: flex;
+left: 240px;
+bottom: 75px;
+border-radius: 50%;
+}
+
+.card-hotel .profile-details img {
+  height: 40px;
+  width: 40px;
+  margin: 9px;
+}
+
+.precio-hotel {
+  position: relative;
+  text-align: center;
+  bottom: 345px;
+  }
+
+.precio-hotel .precio-sub{
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  background: rgb(233, 50, 50);
+  height: auto;
+  width: 30%;
+  padding: 2px;
+  margin: 10px;
+}
+
+.precio-hotel .precio-tit{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+  background: #33c7fd;
+  height: auto;
+  width: 30%;
+  padding: 2px;
+  margin: 10px;
+}
 /*-----------------------------------*\
  * #FIN SECCION HOTELES
 \*-----------------------------------*/
 
 
 /*-----------------------------------*\
- * #BANNER IMAGEN
+ * #INICIO DE LA SECCION BANNER IMAGEN
 \*-----------------------------------*/
 
 .cta {
@@ -1301,144 +1546,35 @@ align-items: center;
   align-items: center;
 }
 
-.cta :is(.section-subtitle, .section-title, .section-text) {
-  color: var(--white);
+.cta .section-title {
+  color: white;
+}
+
+.cta .section-subtitle{
+  color: white;
+  font-weight: bold;
+}
+
+.cta .section-text {
+  color: white;
 }
 
 .cta .section-text {
   font-size: var(--fs-5);
 }
 
-
 /*-----------------------------------*\
- * #SECCION RESTAURANTE
+ * #FIN DE LA SECCION BANNER IMAGEN
 \*-----------------------------------*/
 
-.restaurants {
-  background: #05AEE9;
-}
-
-.restaurante-titulo {
-  font-family: "Jua";
-  color: white;
-  padding: 20px 0px 0px 10px;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.icon-titulo {
-  margin-left: 20px;
-  filter: brightness(0) invert(1);
-  width: 50px;
-  height: 50px;
-}
-
-.restaurante-titulo h2 {
-  margin-left: 10px;
-  margin-top: 6px;
-}
-
-.white-icon {
-  filter: brightness(0) invert(1);
-  margin: 0px 0px 0px 100px;
-  width: 40px;
-  height: 40px;
-}
-
-.restaurants .container {
-  max-width: 1400px;
-  width: 100%;
-  padding: 30px 0;
-}
-
-.slide-container {
-  margin: 0 30px;
-  overflow: hidden;
-}
-
-.card-restaurante {
-  background: white;
-  border-radius: 8px;
-}
-
-.card-restaurante .image-box {
-  height: 350px;
-  border-radius: 8px 8px 0 0;
-  overflow: hidden;
-  position: relative;
-}
-
-.card-restaurante .image-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px 8px 0 0;
-}
-
-.card-restaurante .image-box:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  /* Cambiamos "top" por "bottom" */
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-.card-restaurante .profile-details {
-  display: flex;
-  align-items: center;
-  column-gap: 12px;
-  padding: 15px;
-  position: relative;
-  z-index: 1;
-}
-
-.card-restaurante .profile-details img {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-
-.profile-details .name {
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.profile-details .job {
-  font-size: 12px;
-  font-weight: 500;
-  color: #4d4d4d;
-}
-
-
-
-
-
-.swiper-pagination-bullet {
-  background-color: #333;
-}
-
-@media screen and (max-width: 768px) {
-  .swiper-navBtn {
-    display: none;
-  }
-}
-
-
-
-
 
 /*-----------------------------------*\
- * #FOOTER
+ * #INICIO DE LA SECCION FOOTER
 \*-----------------------------------*/
 
 .footer-top {
   background: var(--gunmetal);
-  padding-block: var(--section-padding);
+  padding-block: 50px;
   color: var(--gainsboro);
 }
 
@@ -1578,12 +1714,13 @@ address {
   color: var(--white);
 }
 
-
-
+/*-----------------------------------*\
+ * #FIN DE LA SECCION FOOTER
+\*-----------------------------------*/
 
 
 /*-----------------------------------*\
- * #GO TO TOP
+ * #INICIO DE LA SECCION SUBIR ARRIBA 
 \*-----------------------------------*/
 
 .go-top {
@@ -1615,12 +1752,13 @@ address {
   opacity: 1;
 }
 
-
-
+/*-----------------------------------*\
+ * #INICIO DE LA SECCION SUBIR ARRIBA 
+\*-----------------------------------*/
 
 
 /*-----------------------------------*\
- * #MEDIA QUERIES
+ * #CSS RESPONSIVE
 \*-----------------------------------*/
 
 /**
@@ -1639,6 +1777,7 @@ address {
   }
 
   .btn {
+    text-align: center;
     --fs-5: 16px;
     --padding: 12px 30px;
   }
@@ -1771,10 +1910,6 @@ address {
 
 }
 
-
-
-
-
 /**
  * responsive for larger than 768px screen
  */
@@ -1902,7 +2037,7 @@ address {
 
   .gallery-list {
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 50px;
   }
 
   .gallery-image {
@@ -1951,8 +2086,6 @@ address {
   }
 
 }
-
-
 
 
 
